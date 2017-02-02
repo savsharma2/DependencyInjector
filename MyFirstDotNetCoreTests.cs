@@ -19,7 +19,7 @@ namespace ConsoleApp2
         [Fact]
         public void FailingTest2()
         {
-            Assert.Equal(5, Add(3, 2));
+            Assert.Equal(5, Add(8, 2));
         }
 
         int Add(int x, int y)
