@@ -38,7 +38,7 @@ namespace ConsoleApp2
 
         bool IsOdd(int value)
         {
-            return value1 % 2 == 1;
+            return value % 2 == 1;
         }
     }
 }
