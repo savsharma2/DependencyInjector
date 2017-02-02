@@ -22,6 +22,11 @@ namespace ConsoleApp2
             Assert.Equal(5, Add(8, 2));
         }
 
+        public void FailingTest3()
+        {
+            Assert.Equal(5, Add(0, 2));
+        }
+
         int Add(int x, int y)
         {
             return x + y;
